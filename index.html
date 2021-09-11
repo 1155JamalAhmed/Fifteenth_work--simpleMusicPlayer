@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="main_div">
+      <div class="music_container">
+        <h2>song-1</h2>
+        <h3>Jamal-1</h3>
+        <div class="img_container">
+          <img src="images/image-1.jpg" alt="" />
+        </div>
+
+        <div class="music_controls">
+          <i class="fas fa-backward" id="prev" title="Previous"></i>
+          <i class="fas fa-play" id="play" title="Play"></i>
+          <i class="fas fa-pause display-none" id="pause" title="Pause"></i>
+          <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
+      </div>
+      <div class="display-none">
+        <audio src="music/song-1.mp3"></audio>
+        <audio src="music/song-2.mp3"></audio>
+        <audio src="music/song-3.mp3"></audio>
+      </div>
+    </div>
+  </body>
+</html>
